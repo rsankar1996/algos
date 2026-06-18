@@ -1,6 +1,7 @@
 #include <stdio.h>
 //#include "bubble.h"
-#include "select.h"
+//#include "select.h"
+#include "insert.h"
 
 int main()
 {
