@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "binary.h"
 
 int search (int * arr, int len, int key)
@@ -7,6 +8,8 @@ int search (int * arr, int len, int key)
 	int low = 0;
 	int high = (len - 1);
 	int mid = (low + high) / 2;
+	
+	printf("DBG: Binary search\r\n");
 	
 	if ((NULL == arr) || (0 == len))
 	{
